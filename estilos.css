@@ -1,14 +1,37 @@
+/* 
+Colores autilizar
+
+#252525
+#7f8084
+#d7d8da
+#f3f3f3
+
+*/
+
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+header{
+    background: #fff;
+    box-shadow: 0px 6px 5px -4px rgba(0,0,0,0.3);
+    
+    
+}
+
+body{
+    background: #f3f3f3;
+}
+
 .navbar-container{
     display: flex;
     height: 60px;
-    width: 100%;
-    margin-top: 10px;
+    width: 70%;
+    justify-content: center;
+    margin: 0px auto;
 }
 
 .navbar-container_logo {
@@ -16,11 +39,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 80px;  
+      
 }
 
 .navbar-container_logo img{
-    width: 250px;
+    width: 150px;
 }
 
 .navbar-container_items{
@@ -35,11 +58,115 @@ li{
 }
 
 nav ul li a{
+    color: #7f8084;
     text-decoration: none;
-    margin-right: 80px;
     font-family: 'Roboto', sans-serif;
+    padding: 20px;
 }
 
 nav ul li a:hover{
-    text-decoration: underline 3px solid rgb(0, 0, 0);
+    text-decoration: underline 2px solid #3f3d56;
+}
+
+.hero{
+    width: 70%;
+    height: 300px;
+    margin: 280px auto;
+    display: flex;
+}
+
+.hero-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    width: 40vw;
+}
+
+.hero-texto h1{
+    font-family: Poppins ;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color: #252525;
+}
+
+.hero-texto p{
+    font-family: Roboto ;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 40px 0;
+    color:#7f8084;
+}
+
+
+.hero-imagen{
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-imagen img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.hero-botones_primero{
+width: 12vw;
+padding: 10px;
+border-radius: 25px;
+border: 2px solid #3f3d56;
+background: #3f3d56;
+color: #fff;
+margin-right: 15px;
+font-family: Poppins;
+cursor: pointer;
+}
+
+.hero-botones_primero:hover{
+    background: #252525;
+    color: #fff;
+    border: 2px solid #252525;
+}
+
+.hero-botones_segundo{
+width: 8vw;
+padding: 10px;
+border-radius: 25px;
+border: 2px solid #3f3d56;
+background: #f3f3f3;
+font-family: Poppins;
+cursor: pointer;
+color: #3f3d56;
+}
+
+.hero-botones_segundo:hover{
+    background: #252525;
+    color: #fff;
+    border: 2px solid #252525;
+}
+
+.descripcion{
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: #d7d8da ;
+    margin-top: 350px;
+
+}
+
+.descripcion p{
+    color: #3f3d56;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 70vw;
+    padding: 100px 0;
+    
 }
