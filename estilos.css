@@ -18,8 +18,7 @@ Colores autilizar
 header{
     background: #fff;
     box-shadow: 0px 6px 5px -4px rgba(0,0,0,0.3);
-    
-    
+    position: fixed;
 }
 
 body{
@@ -70,8 +69,8 @@ nav ul li a:hover{
 
 .hero{
     width: 70%;
-    height: 300px;
-    margin: 280px auto;
+    height: 100vh;
+    margin: 0px auto;
     display: flex;
 }
 
@@ -156,8 +155,6 @@ color: #3f3d56;
     justify-content:center;
     align-items:center;
     background: #d7d8da ;
-    margin-top: 350px;
-
 }
 
 .descripcion p{
