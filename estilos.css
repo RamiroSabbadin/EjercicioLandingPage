@@ -85,7 +85,7 @@ nav ul li a:hover{
 .hero-texto h1{
     font-family: Poppins ;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3rem;
     line-height: 55px;
     color: #252525;
 }
@@ -93,7 +93,7 @@ nav ul li a:hover{
 .hero-texto p{
     font-family: Roboto ;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.2rem;
     margin: 40px 0;
     color:#7f8084;
 }
@@ -147,9 +147,9 @@ color: #3f3d56;
     border: 2px solid #252525;
 }
 
-.descripcion{
+.descripcion-contenedor{
     width: 100%;
-    height: 300px;
+    height: 40vh;
     margin: 0px auto;
     display: flex;
     justify-content:center;
@@ -157,13 +157,85 @@ color: #3f3d56;
     background: #d7d8da ;
 }
 
-.descripcion p{
+.descripcion{
     color: #3f3d56;
     font-family: Poppins;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 1em;
     text-align: center;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ventajas-contenedor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ventajas{
+    display: flex;
+    height: 100%;
     width: 70vw;
-    padding: 100px 0;
-    
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ventajas-titulo{
+    font-family: Poppins;
+    text-align: center;
+}
+
+.ventajas-titulo h2{
+    color:#3f3d56;
+}
+
+.ventajas-titulo p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #7f8084;
+}
+
+.ventajas-imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.ventajas-imagenes h2{
+    margin: 20px;
+    color: #252525;
+}
+
+.ventajas-imagenes p{
+    font-family: Roboto;
+    font-weight: 400;
+    color: #7f8084;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.ventajas-imagenes img{
+    width: 150px;
+    height: 100px;
+}
+
+.ventajas-imagenes_contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+    align-items: center;
+    width: 20% ;
 }
